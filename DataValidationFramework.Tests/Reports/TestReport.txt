@@ -1,0 +1,16 @@
+Test execution started at 17/04/2025 07:25:49
+07:25:49 - START Scenario: Validate no duplicate columns exist in any report
+07:25:50 - PASSED: Validate no duplicate columns exist in any report [0.36 sec]
+07:25:50 - 
+
+07:25:50 - START Scenario: Validate Yes/No fields in the report
+07:25:51 - Checking value for column c0140 in file y_02.02.csv: No
+07:25:51 - Checking value for column c0140 in file y_02.02.csv: No
+07:25:51 - Checking value for column c0080 in file y_07.01.csv: Yes
+07:25:51 - Checking value for column c0080 in file y_07.01.csv: PJKqTqBT:xAg2bs
+07:25:51 - X Invalid value 'PJKqTqBT:xAg2bs' in column c0080 of file y_07.01.csv
+07:25:51 - FAILED: Validate Yes/No fields in the report [1.77 sec]
+07:25:51 - Error: Expected validationErrors to be <null> or empty, but found "File: y_07.01.csv - Column: 'c0080' has invalid value: 'PJKqTqBT:xAg2bs'
+".
+07:25:51 - 
+

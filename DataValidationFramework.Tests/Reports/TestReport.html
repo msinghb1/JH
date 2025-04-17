@@ -1,0 +1,27 @@
+<html><head><title>Test Report</title>
+<style>
+body { font-family: Arial; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+.passed { background-color: #d4edda; }
+.failed { background-color: #f8d7da; }
+</style></head><body>
+<h2>Data Validation Test Report</h2>
+<table><tr><th>Time</th><th>Status</th><th>Details</th></tr>
+<tr class=''><td>07:25:52</td><td>-</td><td>Test execution started at 17/04/2025 07:25:49</td></tr>
+<tr class=''><td>07:25:52</td><td>-</td><td>07:25:49 - START Scenario: Validate no duplicate columns exist in any report</td></tr>
+<tr class='passed'><td>07:25:52</td><td>Passed</td><td>07:25:50 - PASSED: Validate no duplicate columns exist in any report [0.36 sec]</td></tr>
+<tr class=''><td>07:25:52</td><td>-</td><td>07:25:50 - </td></tr>
+<tr class=''><td>07:25:52</td><td>-</td><td></td></tr>
+<tr class=''><td>07:25:52</td><td>-</td><td>07:25:50 - START Scenario: Validate Yes/No fields in the report</td></tr>
+<tr class=''><td>07:25:52</td><td>-</td><td>07:25:51 - Checking value for column c0140 in file y_02.02.csv: No</td></tr>
+<tr class=''><td>07:25:52</td><td>-</td><td>07:25:51 - Checking value for column c0140 in file y_02.02.csv: No</td></tr>
+<tr class=''><td>07:25:52</td><td>-</td><td>07:25:51 - Checking value for column c0080 in file y_07.01.csv: Yes</td></tr>
+<tr class=''><td>07:25:52</td><td>-</td><td>07:25:51 - Checking value for column c0080 in file y_07.01.csv: PJKqTqBT:xAg2bs</td></tr>
+<tr class=''><td>07:25:52</td><td>-</td><td>07:25:51 - X Invalid value 'PJKqTqBT:xAg2bs' in column c0080 of file y_07.01.csv</td></tr>
+<tr class='failed'><td>07:25:52</td><td>Failed</td><td>07:25:51 - FAILED: Validate Yes/No fields in the report [1.77 sec]</td></tr>
+<tr class=''><td>07:25:52</td><td>-</td><td>07:25:51 - Error: Expected validationErrors to be <null> or empty, but found "File: y_07.01.csv - Column: 'c0080' has invalid value: 'PJKqTqBT:xAg2bs'</td></tr>
+<tr class=''><td>07:25:52</td><td>-</td><td>".</td></tr>
+<tr class=''><td>07:25:52</td><td>-</td><td>07:25:51 - </td></tr>
+<tr class=''><td>07:25:52</td><td>-</td><td></td></tr>
+</table></body></html>
